@@ -1,0 +1,25 @@
+<?xml version= "1.0"?>
+<college>
+    <student base= "hello">
+         <fname>umair</fname>
+        <lname>rajah</lname>
+        <email>yourajah1993@gmail.com</email>
+        <mobile>03152116849</mobile>
+         <address>
+            <city>karachi</city>
+            <area>saudabad</area>
+        </address>
+    </student>
+    <student >
+        <fname>sumair</fname>
+        <lname>rana</lname>
+        <email>srana@gmail.com</email>
+        <mobile>03052116849</mobile>
+        <address>
+            <city>karachi</city>
+            <area>malir</area>
+        </address>
+    </student>
+
+
+</college>

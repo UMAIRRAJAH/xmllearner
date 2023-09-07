@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="college">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="student">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="age"  />
+              <xs:simpleType  />
+                <xs:restriction base="xs:unsignedInt"/>
+                <xsminInclusive value ="18"/>
+                <xsmxInclusive value="60"/>
+              </xs:simpleType  />
+
+              
+              
+        </xs:element>
+      
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
